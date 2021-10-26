@@ -16,7 +16,7 @@ t1 = PythonOperator(
     task_id='oos_function',
     dag=dag,
     python_callable=app,
-    op_kwargs={'date': '2021-02-02'}
+    op_kwargs={'date': '2021-02-01'}
 )
 
 t1
